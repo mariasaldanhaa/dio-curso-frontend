@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <form onsubmit="" method="get">
+        <label>Nome:</label><br>
+        <input type="text" name="name" placeholder="Digite seu nome"><br>
+
+        <label>Idade:</label><br>
+        <input type="number" name="age" min="0" max="104" placeholder="Digite sua idade"><br>
+        
+        <label>Senha:</label><br>
+        <input type="password" name="password" placeholder="Digite sua senha"><br>
+
+        <button type="button" onmouseover="alert('Passei aqui!')">Clicável</button>
+        <button type="reset"> Limpar </button>
+        <!--onClick - ao clicar no botão executa um evento-->
+        <!--onmouseover - ao passar o mouse em cima do botão, executa um evento-->
+        <!--type="reset" - limpa os campos do input-->
+        <!--type="submit" - enviar o formulário-->
+        <!--o onsubmit respeita o botão Enter do teclado, o ideal seria pensar na validação de que todos
+        os campos devem ser preenchidos-->
+    </form>
+</body>
+</html>

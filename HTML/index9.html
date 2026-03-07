@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="" method="get">
+        <label>Nome:</label>
+        <input type="text" name="name"><br>
+
+        <label>Cargo:</label>
+        <select name="role">
+            <option selected value="">Selecione o cargo</option>
+            <option value="administrativo">Administrativo</option>
+            <option value="gerente">Gerente</option>
+            <option value="diretor">Diretor</option>
+            <option value="presidente">Presidente</option>
+        </select><br>
+        <!--multiple - adicionar múltiplas opções-->
+        <label>Assunto:</label>
+        <input type="text" name="subject"><br>
+        <label>Mensagem:</label><br>
+        <textarea rows="10" cols="50"name="message"></textarea><br>
+        <button type="submit">Enviar</button>
+        <!--rows - número de linhas visíveis -->
+        <!--cols - número de colunas visíveis -->
+    </form>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha HTML</title>
+    <style>
+        .row {
+            margin: 5px;
+        }
+        label {
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+        fieldset {
+            margin: 5px 0;
+            border-radius: 10px;
+            border-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Formulário de cadastro</h1>
+
+        <!--Dados pessoais-->
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <div class="row">
+                <!--Nome:-->
+                <label>Nome:</label>
+                <input type="text" name="name">
+
+                <!--E-mail-->
+                <label>E-mail</label>
+                <input type="email" name="email"> <br>
+
+                <!--Profissão-->
+                <label>Profissão:</label>
+                <input type="text" name="profession">
+                
+                <!--Empresa-->
+                <label>Empresa:</label>
+                <input type="text" name="company"> <br>
+        </fieldset>
+
+        <!--Endereço-->
+        <fieldset>
+            <legend>Endereço</legend>
+            <div class="row">
+                <!--Rua-->
+                <label>Rua:</label>
+                <input type="text" name="adress">
+
+                <!--Número-->
+                <label>Número:</label>
+                <input type="number" name="number" min="0"> <br>
+
+                <!--Bairro-->
+                <label>Bairro:</label>
+                <input type="text" name="neighborhood"> <br>
+
+                <!--Cidade/UT-->
+                <label>Cidade/UT:</label>
+                <input type="text" name="city"> <br>
+            </div>
+        </fieldset>
+
+        <!--Informações de contato-->
+        <fieldset>
+            <legend>Informações de contato:</legend>
+            <div class="row">
+                <!--Celular-->
+                <label>Nome:</label>
+                <input type="tel" name="phone">
+
+                <!--Whatsapp-->
+                <label>Whatsapp</label>
+                <input type="tel" name="Whatsapp"> <br>
+
+                <!--Linkedin-->
+                <label>Linkedin:</label>
+                <input type="url" name="linkedin">
+
+                <!--Github-->
+                <label>Github:</label>
+                <input type="text" name="github"> <br>
+            </div>
+        </fieldset>
+            <button type="reset">Limpar</button>
+                
+            <button type="submit">Enviar formulário</button>
+    </form>
+</body>
+</html>
