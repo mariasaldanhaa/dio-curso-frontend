@@ -11,7 +11,7 @@ salvando todos os exercícios, anotações e projetos desenvolvidos durante as a
 |---------  |---------------------------|------------------|
 | `HTML`    | Primeiros passos com HTML | 🟢 Em andamento |
 | `CSS`     | **Ainda não foi criado**  | 🟢 Em andamento  |
-| `JS`      | **Ainda não foi criado**  | ⏳ Aguardando    |
+| `JS`      | **Ainda não foi criado**  | 🟢 Em andamento    |
 | `Projects`| **Ainda não foi criado**  | ⏳ Aguardando    |
 
 ## 📊 Gráfico de Progresso
