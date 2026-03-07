@@ -7,20 +7,20 @@ salvando todos os exercícios, anotações e projetos desenvolvidos durante as a
 
 ## 📁 Estrutura
 
-| Pastas    | Descrição                 | Status          |
-|---------  |---------------------------|-----------------|
+| Pastas    | Descrição                 | Status           |
+|---------  |---------------------------|------------------|
 | `HTML`    | Primeiros passos com HTML | 🟢 Em andamento |
-| `CSS`     | **Ainda não foi criado**  | ⏳ Aguardando   |
-| `JS`      | **Ainda não foi criado**  | ⏳ Aguardando   |
-| `Projects`| **Ainda não foi criado**  | ⏳ Aguardando   |
+| `CSS`     | **Ainda não foi criado**  | 🟢 Em andamento  |
+| `JS`      | **Ainda não foi criado**  | ⏳ Aguardando    |
+| `Projects`| **Ainda não foi criado**  | ⏳ Aguardando    |
 
 ## 📊 Gráfico de Progresso
 
 ```mermaid
 pie title Progresso atual  
-         "HTML" : 13
-         "CSS" : 0
-         "JS" : 0
+         "HTML" : 38
+         "CSS" : 2
+         "JS" : 1
 ```
 
 ## 📈 HTML - Meu aprendizado (por enquanto)
@@ -32,8 +32,19 @@ pie title Progresso atual
 - [x] Listas (ul, ol, li);
 - [x] Links (a href, target);
 - [x] Inputs (text, email, password, number, button, range, color, url, date, week, month, checkbox, radio, hidden, file, search);
+- [x] Estrutura do formulário;
+- [x] Atributos: action, method, name;
+- [x] GET vs POST;
+- [x] Fieldset e legend;
+- [x] Label;
+- [x] Disabled;
+- [x] Textarea (área de texto);
+- [x] Botões de envio e limpar;
+- [x] Estrutura do site (layout);
+- [x] Estilização inline (style no head);
+- [x] Aplicação de eventos;
 - [x] Comentários no código;
 
 ---
 
-📅 **Última atualização:** 04/03/2026
+📅 **Última atualização:** 07/03/2026
