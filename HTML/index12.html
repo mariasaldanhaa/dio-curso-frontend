@@ -5,20 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index 12</title>
 </head>
-<body>
-    <video controls autoplay width="500" height="450">
+<body style="background-color: rgb(187, 255, 191)">
+    <video controls width="500" height="450">
         <source src="sources/video.mp4">
-    </video>
+        <!--Sempre bom colocar o arquivo de mídia em outros formatos,
+        pois caso o navegador não suporte o primeiro arquivo, ele logo
+        irá para o segundo arquivo. Ex:.webm-->
+        Seu navegador não suporta vídeo
+    </video><br>
+
+    <video controls>
+        <source src="sources/video2.mp4">
+        <track 
+            default 
+            src="sources/subtitles/legenda.vtt" 
+            kind="captions" 
+            srclang="pt-br"
+            label="Português">
+        Seu navegador não tem suporte
+        <!--subtitles - fornece legendas traduzidas ou adaptadas para 
+        quem não entende o idioma do áudio. Não inclui sons não falados-->
+
+        <!--captions - fornece legendas completas, incluindo diálogos e sons importantes-->
+
+        <!--descriptions - fornece descrições em áudio do que está acontecendo 
+        no vídeo para pessoas com deficiência visual-->
+
+        <!--chapters - fornece marcadores de capítulos para navegação no vídeo-->
+
+        <!--metadata - fornece dados para scripts (não é exibido ao usuário). 
+        Pode ser usado para sincronizar informações extras com o vídeo.-->
+    </video><br>
 
     <!-- iframe - abrir páginas/conteúdos-->
-    <iframe 
-        src="https://www.google.com/maps/embed?pb=!4v1772863692692!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRE1xTEQxX3dF!2m2!1d40.71435276694399!2d-74.00597307391776!3f288.63058!4f0!5f0.7820865974627469" 
-        width="500" 
-        height="450" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!4v1772863692692!6m8!1m7!1sCAoSF0NJSE0wb2dLRUlDQWdJRE1xTEQxX3dF!2m2!1d40.71435276694399!2d-74.00597307391776!3f288.63058!4f0!5f0.7820865974627469" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+
+    <img src="sources/dancing.gif" title="GIF" alt="Gif de um personagem o roblox dançando"><br>
+
+    <audio controls>
+        <source src="sources/audio.mp3" />
+        <!--autplay - quando abrir o site, vai começar tocar o aúdio-->
+    </audio>
+    <input type="range" min="0" max="100"> <!--Muda a velocidade do aúdio-->
 </body>
 </html>
