@@ -18,7 +18,7 @@ salvando todos os exercícios, anotações e projetos desenvolvidos durante as a
 
 ```mermaid
 pie title Progresso atual  
-         "HTML" : 38
+         "HTML" : 50
          "CSS" : 2
          "JS" : 1
 ```
@@ -48,4 +48,4 @@ pie title Progresso atual
 
 ---
 
-📅 **Última atualização:** 07/03/2026
+📅 **Última atualização:** 08/03/2026
