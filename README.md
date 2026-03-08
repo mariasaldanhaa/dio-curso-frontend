@@ -43,6 +43,7 @@ pie title Progresso atual
 - [x] Estrutura do site (layout);
 - [x] Estilização inline (style no head);
 - [x] Aplicação de eventos;
+- [x] Tags de mídia (img, audio, video, iframe);
 - [x] Comentários no código;
 
 ---
