@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            border: solid 4px #3b82f6;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, 
+            rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        }
+        table thead {
+            background-color: #3b82f6;
+            color: #ffffff;
+        }
+        table tfoot {
+            background-color: #93c5fd;
+        }
+
+        table tbody tr:nth-child(odd) td {
+            background-color: #eff6ff;
+        }
+        table tr:nth-child(even) { 
+        /* :nth-child -  pseudo-classe que permite selecionar elementos com 
+        base em sua posição entre os elementos irmãos */
+        /* even - seleciona todos os elementos pares */
+        /* odd - seleciona todos os elementos ímpares */
+            background-color: #dbeafe;
+        }
+        table tr:hover td {
+            /* hover - aplicar estilos a elementos quando o cursor do mouse 
+            passa sobre eles*/
+            background-color: #dbdbdb;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <table 
+        summary="Esta tabela evidencia informações do ano de criação, paradigma e uso principal das principais linguagens de programação" 
+        width="700px" 
+        height="70px" 
+        cellspacing="5" 
+        cellpadding="5" 
+        align="center"> <!--Tabela-->
+    <!--align - centraliza a tabela-->
+    <!--cellspacing - distância entre as células-->
+    <!--cellpadding - distância entre as células e a borda-->
+    <!--summary - descreve um resumo da tabela-->
+        <caption>Tabela de Linguagens de Programação Populares</caption>
+        <!--caption - descrição breve da tabela-->
+        <thead>
+            <tr> <!--Linha-->
+                <th title="Linguagem">Linguagem</td> <!--Cabeçalho-->
+                <th title="Ano de criação">Ano de criação</td>
+                <th title="Paradigma">Paradigma</td>
+                <th title="Uso principal">Uso principal</td>
+            </tr>
+        </thead>
+            <tbody>
+            <tr id="1">
+                <td>JavaScript</td> <!--Coluna-->
+                <td>1995</td>
+                <td>Multiparadigma</td>
+                <td>Desenvolvimento Web</td>
+            </tr>
+            <tr id="2">
+                <td>Python</td>
+                <td>1991</td>
+                <td>Orientado a objetos</td>
+                <td>Ciência de dados</td>
+            </tr>
+            <tr id="3">
+                <td>C</td>
+                <td>1972</td>
+                <td>Procedural</td>
+                <td>Sistemas operacionais</td>
+            </tr>
+            <tr id="4">
+                <td>Java</td>
+                <td>1995</td>
+                <td>Orientado a objetos</td>
+                <td>Aplicações empresariais</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Tabela simples de linguagens de programação populares</td>
+                <!--colspan - determina o número de colunas que uma célula
+                de tabela poderia abranger-->
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

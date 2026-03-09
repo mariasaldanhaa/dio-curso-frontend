@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <figure>
+        <!--é usado para representar conteúdos autônomos, como imagens, 
+        diagramas, trechos de código, ilustrações ou até poemas.-->
+        <img src="sources/car.jpg" width="250">
+        <figcaption>VW 1500 Fuscão 1971 Azul Diamante</figcaption>
+        <!--figcaption - legenda ou descrição relacionada a uma imagem ou ilustração-->
+    </figure>
+
+    <picture>
+        <!--A picture fornece múltiplas fontes para a mesma imagem, permitindo 
+        responsividade e adaptação a diferentes dispositivos ou condições 
+        (ex.: telas retina, modo escuro, formatos diferentes)-->
+        <source srcset="sources/car3.jpg" media="(min-vidth: 600px)">
+        <!--srcset -  permite que os navegadores selecionem a imagem ideal 
+        com base no tamanho e na resolução da tela-->
+        <img src="sources/car2.jpg" width="250">
+    </picture>
+</body>
+</html>

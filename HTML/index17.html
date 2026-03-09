@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+        }
+        nav ul li a {
+            padding: 10px 15px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            color:rgb(140, 241, 93);
+            background-color: beige;
+            text-decoration: underline;
+            border-radius: 5px 0;
+        }
+        blockquote {
+            background-color: rgb(231, 231, 231);
+            padding: 15px;
+            margin-left: 0px;
+            border-left: 5px solid #0011ff;
+        }
+        article time {
+            font-style: italic;
+        }
+        article q {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav> <!--Navegações-->
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="tel:+55 (31) 99999-9999">Telefone</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article> <!--Contéudo relacionado à página em si-->
+            <h1>Construindo Experiências Digitais Simples e Funcionais</h1>
+            <p>Artigo publicado em <time pubdate>09/03/2026 19:00</time></p>
+            <article>
+                <q>Design é inteligência tornada visível - Alina Wheeler</q>
+                <!--q - Citação curta-->
+                <p>
+                    O desenvolvimento web moderno combina criatividade e tecnologia. 
+                    Ao integrar boas práticas de design com código bem estruturado, 
+                    é possível criar páginas que não apenas funcionam bem, mas também 
+                    proporcionam uma experiência agradável para quem navega.
+                </p>
+                <blockquote cite="www.citacao.com.br>
+                    “O design não é apenas o que parece e o que se sente. Design é como funciona.”
+                    — Steve Jobs
+                </blockquote>
+            </article>
+        </article>
+
+        <section></section> <!--Seções-->
+        <section></section>
+        <section></section>
+        <section></section>
+
+        <aside></aside> 
+        <!--Assunto que não tem nada a ver com a página principal.
+        Ela tem menos importância-->
+    </main>
+</body>
+</html>
