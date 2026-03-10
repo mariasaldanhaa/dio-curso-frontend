@@ -1,0 +1,38 @@
+header {
+            text-align: center;
+            font-family: Cambria, sans-serif;
+        }
+header hr {
+     width: 400px;
+}
+header span {
+    font-weight: 500;
+}
+header nav {
+    background-color: #f1f1f1;
+    border-color: #cecece;
+    box-shadow: 0 2px 4px #d4d4d4;
+    margin: 18px 0 13px 0;
+}
+header nav ul li{
+    text-decoration: none;
+    color: #ffffff;
+    list-style-type: none;
+    padding: 10px;
+    display: inline;
+}
+header nav ul li:hover {
+    text-decoration: underline;
+    color: #5b74ff
+}
+header nav input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #dddddd;
+    box-shadow: 0 1px 1px #c9c9c9;
+}
+header nav input:hover {
+    border-radius: 10px;
+}
+        
