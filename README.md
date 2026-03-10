@@ -9,16 +9,16 @@ salvando todos os exercícios, anotações e projetos desenvolvidos durante as a
 
 | Pastas    | Descrição                 | Status           |
 |---------  |---------------------------|------------------|
-| `HTML`    | Primeiros passos com HTML | 🟢 Em andamento |
-| `CSS`     | **Ainda não foi criado**  | 🟢 Em andamento  |
-| `JS`      | **Ainda não foi criado**  | 🟢 Em andamento    |
-| `Projects`| **Ainda não foi criado**  | ⏳ Aguardando    |
+| `HTML`    | Primeiros passos com HTML | 🟢 Em andamento  |
+| `CSS`     | **Em contrução**          | 🟢 Em andamento  |
+| `JS`      | **Em contrução**          | 🟢 Em andamento  |
+| `Projects`| **Em contrução**          | 🟢 Em andamento  |
 
 ## 📊 Gráfico de Progresso
 
 ```mermaid
 pie title Progresso atual  
-         "HTML" : 50
+         "HTML" : 78
          "CSS" : 2
          "JS" : 1
 ```
@@ -40,12 +40,16 @@ pie title Progresso atual
 - [x] Disabled;
 - [x] Textarea (área de texto);
 - [x] Botões de envio e limpar;
-- [x] Estrutura do site (layout);
+- [x] Estrutura do site (layout) e atributos;
 - [x] Estilização inline (style no head);
 - [x] Aplicação de eventos;
 - [x] Tags de mídia (img, audio, video, iframe);
+- [x] Tabelas e estruturação (thead, tbody, tfoot);
+- [x] Acessibilidade (summary, title, alt);
+- [x] Navegações;
+- [x] Diferença entre as tags figure e picture;
 - [x] Comentários no código;
 
 ---
 
-📅 **Última atualização:** 08/03/2026
+📅 **Última atualização:** 09/03/2026
