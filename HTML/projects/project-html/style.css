@@ -1,38 +1,51 @@
 header {
-            text-align: center;
-            font-family: Cambria, sans-serif;
-        }
+    text-align: center;
+    font-family: Cambria, sans-serif;
+    padding: 0;
+    margin: 0;
+}
 header hr {
      width: 400px;
 }
 header span {
     font-weight: 500;
 }
-header nav {
+.navbar {
     background-color: #f1f1f1;
     border-color: #cecece;
     box-shadow: 0 2px 4px #d4d4d4;
-    margin: 18px 0 13px 0;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 13px;
+    justify-content: center;
 }
-header nav ul li{
-    text-decoration: none;
-    color: #ffffff;
+.navbar ul {
     list-style-type: none;
-    padding: 10px;
-    display: inline;
+    display: flex;
+    gap: 50px;
 }
-header nav ul li:hover {
-    text-decoration: underline;
-    color: #5b74ff
+.navbar a {
+    text-decoration: none;
+    font-family:'Gill Sans MT', sans-serif;
+    font-weight: bold;
+    color: #686868;
+    padding-bottom: 15px;
+
+    &:hover {
+        color: #5654ca;
+        border-bottom: 3px solid #5654ca;
+        transition: 0.3s;
+    }
 }
-header nav input {
+.navbar input {
     width: 200px;
     height: 30px;
     border-radius: 5px;
     border-color: #dddddd;
-    box-shadow: 0 1px 1px #c9c9c9;
-}
-header nav input:hover {
-    border-radius: 10px;
-}
-        
+    box-shadow: 0 0px 1px #c9c9c9;
+
+    &:hover {
+        border-radius: 10px;
+    }
+}  

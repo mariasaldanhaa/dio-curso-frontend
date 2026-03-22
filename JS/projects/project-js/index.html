@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeroLevel</title>
+</head>
+<body>
+    <header>
+        <h1>Classificador de Nível de Herói</h1>
+        <h2>Informe seu XP para saber sua classificação!</h2>
+    </header>
+    <main>
+        <label>Nome do herói:</label>
+        <input type="text" name="heroName" id="heroName" required/> <br/>
+
+        <label>Quantidade de experiência (XP):</label>
+        <input type="number" min="0" name="heroXP" id="heroXP" required/>
+
+        <button onclick="classification()">Enviar</button> <br/>
+
+        <span id="result">Preencha o formulário e clique no botão!</span>
+    </main>
+    <!--22/03 - focando mais na parte de JS por enquanto, irei concluir CSS por último e pretendo
+    estilizar esse projeto.-->
+    <script src="script.js"></script>
+</body>
+</html>
