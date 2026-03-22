@@ -20,7 +20,7 @@ salvando todos os exercícios, anotações e projetos desenvolvidos durante as a
 pie title Progresso atual  
          "HTML" : 100
          "CSS" : 2
-         "JS" : 1
+         "JS" : 6
 ```
 
 ## 📈 Meu aprendizado
