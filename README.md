@@ -9,7 +9,7 @@ salvando todos os exercícios, anotações e projetos desenvolvidos durante as a
 
 | Pastas    | Descrição                 | Status           |
 |---------  |---------------------------|------------------|
-| `HTML`    | Primeiros passos com HTML | 🟢 Em andamento  |
+| `HTML`    | Primeiros passos com HTML | ✅ Concluído     |
 | `CSS`     | **Em contrução**          | 🟢 Em andamento  |
 | `JS`      | **Em contrução**          | 🟢 Em andamento  |
 | `Projects`| **Em contrução**          | 🟢 Em andamento  |
@@ -18,14 +18,14 @@ salvando todos os exercícios, anotações e projetos desenvolvidos durante as a
 
 ```mermaid
 pie title Progresso atual  
-         "HTML" : 78
+         "HTML" : 100
          "CSS" : 2
          "JS" : 1
 ```
 
-## 📈 HTML - Meu aprendizado (por enquanto)
+## 📈 Meu aprendizado
 
-### 🏁 Primeiros passos com HTML
+### 🏁 HTML (concluído)
 - [x] Estrutura básica (DOCTYPE, html, head, body);
 - [x] Títulos (h1 ao h6);
 - [x] Parágrafos e formatação (p, strong, mark, u, sup, blockquote, i);
@@ -50,6 +50,13 @@ pie title Progresso atual
 - [x] Diferença entre as tags figure e picture;
 - [x] Comentários no código;
 
+### 🧠 JavaScript (em andamento)
+
+- [x] Conceitos e funcionamento de Fluxograma;
+- [x] Criação de variáveis;
+- [x] Criando e manipulando vetores e matrizes;
+- [x] Trabalhando com estruturas condicionais (if, else, else if);
+- [x] Trabalhando com estruturas de decisão (for, while, do-while);
 ---
 
-📅 **Última atualização:** 09/03/2026
+📅 **Última atualização:** 22/03/2026
